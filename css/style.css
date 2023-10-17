@@ -1,0 +1,41 @@
+
+body{
+    background-image: url(../image/wallpaperflare.com_wallpaper\ \(19\).jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.submit-btn  .btn
+{
+    border:1px solid black;
+    color: var(--darkBlueShadow);
+}
+.submit-btn  .btn:hover
+{
+    background-color: black;
+    color: white;
+}
+.account-question  a:hover
+{
+    text-decoration: underline !important;
+}
+.btn-outline-warning
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-outline-warning:hover 
+{
+    color: rgba(255, 255, 255, 0.75);
+}
+.home-content p 
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--darkBlueShadow);
+}
+
+@media  screen and (max-width:991px){
+    h1
+    {
+        font-size: 25px;
+    }
+}
